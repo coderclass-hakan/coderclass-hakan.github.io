@@ -1,0 +1,73 @@
+* {
+font-family: 'VT323', monospace;
+}
+
+body {
+  background-color: #ffe6e6;
+}
+
+#titel {
+  clear: right;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 30px;
+}
+
+#logodiv {
+  background-color: rgba(255,255,255, 0.8);;
+  border-radius: 10px;
+  width: 420px;
+  padding: 10px;
+  float: right;
+}
+.header {
+  height: 200px;
+  background-color: red;
+  border: 5px solid black;
+  border-bottom: 0px;
+  border-radius: 40px 40px 0px 0px;
+  padding: 15px;
+  background-image: url("https://image.freepik.com/vector-gratis/geometrico-resumen-mosaico-cuadrado-de-fondo-vector-de-diseno-de-cuadrados-en-tonos-rojos_1164-1132.jpg");
+}
+
+#container {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+.presentaties {
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 800px;
+
+}
+
+.presentatie a {
+
+}
+
+.presentatie {
+  width: 150px;
+  margin: 10px;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentatie:hover {
+   background-color: green;
+
+}
+
+
+.presentaties > :first-child {
+  width: 100%;
+  background-color: blue;
+}
